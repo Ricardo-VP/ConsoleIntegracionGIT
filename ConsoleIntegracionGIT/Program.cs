@@ -15,7 +15,18 @@ namespace ConsoleIntegracionGIT
             Console.WriteLine("Hola mundo desde PUCESE");
             //Fin de clase
             Console.WriteLine("Se acabó la clase");
-                
+
+            Console.WriteLine("Probando la función");
+            int suma = funcionSuma(10, 20);
+            Console.WriteLine("Resultado funcion = "+suma);
+
+            Console.ReadKey();
+        }
+
+        //Funcion suma
+        public static int funcionSuma(int a,int b)
+        {
+            return (a * 10 + b * 100);
         }
     }
 }
