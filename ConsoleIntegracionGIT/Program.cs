@@ -11,6 +11,9 @@ namespace ConsoleIntegracionGIT
             Console.WriteLine("La suma de "+ 5+" + "+10+" es igual a: "+ (5+10));
             //Suma de 5 y 10
             Console.WriteLine("La suma de " + 5 + " + " + 10 + " es igual a: " + (5 + 10));
+            //Hola Mundo desde PUCESE
+            Console.WriteLine("Hola mundo desde PUCESE");
+                
         }
     }
 }
