@@ -17,12 +17,19 @@ namespace ConsoleIntegracionGIT
             Console.WriteLine("Se acabó la clase");
 
             Console.WriteLine("La suma de 10 + 20 es {0}", funcionSuma(10, 20));
+
+            Console.WriteLine("La resta de 15 - 5 es {0}", funcionResta(15, 5));
             Console.ReadKey();
                 
         }
         public static int funcionSuma(int a, int b)
         {
             return (a + b);
+        }
+
+        public static int funcionResta(int a, int b)
+        {
+            return (a - b);
         }
     }
 }
